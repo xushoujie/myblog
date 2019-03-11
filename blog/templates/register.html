@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <script  type="text/javascript"  src="{%static  "js/jquery.js" %}"></script>
+</head>
+<script>
+
+    $(function () {
+        $('#register').click(function () {
+            username = $('#username').val();
+            password = $('#password').val();
+            re_password = $('#re_password').val();
+            if (password == ''){
+                alert('密码不能为空')
+                return false
+            }
+            if (re_password == ''){
+                alert('请输入确认密码')
+                return false
+            }
+            if (password != re_password) {
+                $('#password').val('');
+                $('#re_password').val('');
+                alert('两次密码不一致,请重新输入')
+                return false
+             }
+              $.ajax({
+                url:"/blog/ajax_register_info/",
+                type:'post',
+                data:{csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),'username':username,'password':password},
+                success:function(data){
+                    if(data==1){
+                        alert('注册成功')
+                        window.location.href = '/blog/login/'
+                    }
+                    else if(data==2){
+                          // $('#username_info').text("手机号已被注册")第一次注册失败之后，第二次会报错
+                        alert("手机号已被注册")
+                        window.location.href = '/blog/register/';
+                    }
+
+                },
+                error:function () {
+                  alert("出错啦...")
+                },
+            });
+
+
+        });
+
+
+    });
+</script>
+<body>
+<form  method="post"  action="{% url 'blog:register_user_info' %}" >
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td> <label>请输入手机号：</label>  </td>
+            <td> <input type="text"  id="username"   name="username"></td>
+            <td> <span  id="username_info"></span></td>
+        </tr>
+
+         <tr>
+            <td> <label>请输入密码：</label> </td>
+            <td> <input type="password" id="password"  name="password"></td>
+             <td></td>
+            <td><span  id="password_info"></span></td>
+        </tr>
+
+        <tr>
+            <td> <label>请再次输入密码：</label> </td>
+            <td> <input type="password" id="re_password"  name="re_password"></td>
+             <td></td>
+            <td><span  id="re_password_info"></span></td>
+        </tr>
+
+    </table>
+
+    <input type="submit"  value="提交表单注册">
+
+</form>
+    <input type="button"  id="register" value="使用ajax注册">
+
+</body>
+</html>

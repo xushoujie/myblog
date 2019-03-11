@@ -1,0 +1,29 @@
+[2019-03-11 00:34:56,094] [base.py:152] [base:get_response] [WARNING]- Not Found: /
+[2019-03-11 00:34:56,096] [basehttp.py:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2009
+[2019-03-11 00:34:56,266] [base.py:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-03-11 00:34:56,267] [basehttp.py:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2042
+[2019-03-11 00:35:03,097] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 2184
+[2019-03-11 00:35:13,851] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:35:23,000] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:35:29,415] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:35:29,441] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/user_main/ HTTP/1.1" 200 139
+[2019-03-11 00:35:31,880] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/register/ HTTP/1.1" 200 2857
+[2019-03-11 00:35:51,230] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/ajax_register_info/ HTTP/1.1" 200 1
+[2019-03-11 00:35:52,600] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/register/ HTTP/1.1" 200 2857
+[2019-03-11 00:36:08,754] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/ajax_register_info/ HTTP/1.1" 200 1
+[2019-03-11 00:36:11,294] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 2184
+[2019-03-11 00:36:58,239] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:37:02,357] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:37:09,532] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:37:14,805] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-11 00:37:14,827] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/user_main/ HTTP/1.1" 200 139
+[2019-03-11 00:37:17,603] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/register/ HTTP/1.1" 200 2857
+[2019-03-11 00:37:32,251] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/ajax_register_info/ HTTP/1.1" 200 1
+[2019-03-11 00:37:33,635] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/register/ HTTP/1.1" 200 2857
+[2019-03-11 00:38:05,410] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/ajax_register_info/ HTTP/1.1" 200 1
+[2019-03-11 00:38:06,325] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/register/ HTTP/1.1" 200 2857
+[2019-03-11 00:38:27,638] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/ajax_register_info/ HTTP/1.1" 200 1
+[2019-03-11 00:38:28,925] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 2184
+[2019-03-11 02:45:48,496] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 2184
+[2019-03-11 02:45:48,652] [base.py:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-03-11 02:45:48,652] [basehttp.py:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2042

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+</head>
+<script type="text/javascript" src="{% static 'js/jquery.js' %}"> </script>
+<script>
+    $(function(){
+
+        //点击注册按钮
+        $('#register').click(function () {
+
+            window.location.href = '/blog/register/';
+        });
+
+        //使用ajax登录
+        $('#login').click(function() {
+            username = $('#username').val();
+            password = $('#password').val();
+            $('#username_info').text("")
+            $('#password_info').text("")
+            $.ajax({
+                url:"/blog/login_ajax/",
+                type:'post',
+                data:{csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),'username':username,'password':password},
+                success:function(data){
+                    if(data==1)
+                        window.location.href = '/blog/user_main/';
+                    else  if(data==2)
+                        $('#password_info').text("密码错误")
+                    else if(data==3)
+                        $('#username_info').text("用户不存在")
+                },
+                error:function () {
+                  alert("出错啦...")
+                },
+            });
+        });
+
+    });
+
+
+</script>
+<body>
+<form  method="post" action="{% url 'blog:logins' %}">
+       {% csrf_token %}
+        <table>
+            <tr>
+                <td>  <label>手机号：</label></td>
+                <td>  <input type="text"    name="username" id="username"></td>
+                <td>  <span  id="username_info"></span></td>
+            </tr>
+
+            <tr>
+                <td> <label>密码：</label></td>
+                <td> <input type="password"  name="password" id="password"></td>
+                <td> <span  id="password_info"></span> </td>
+            </tr>
+        </table>
+
+       <input type="submit" value="提交表单登录">
+</form>
+
+<input type="button" id="login" value="使用ajax登录" >
+<input type="button" id="register" value="注册" >
+
+</body>
+</html>

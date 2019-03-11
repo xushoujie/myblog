@@ -1,0 +1,586 @@
+[2019-03-08 07:48:37,768] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 07:48:44,424] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 07:48:44,450] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18667
+[2019-03-08 07:49:10,146] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 07:49:10,173] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18667
+[2019-03-08 07:50:08,791] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1325
+[2019-03-08 07:50:14,508] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 07:50:14,531] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18669
+[2019-03-08 07:56:16,156] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 07:56:16,176] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18679
+[2019-03-08 08:00:21,144] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:00:21,175] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18679
+[2019-03-08 08:02:00,592] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1414
+[2019-03-08 08:02:05,117] [base.py:152] [base:get_response] [WARNING]- Not Found: /login_ajax
+[2019-03-08 08:02:05,120] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /login_ajax HTTP/1.1" 404 2040
+[2019-03-08 08:03:01,715] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1413
+[2019-03-08 08:03:13,452] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/logi
+[2019-03-08 08:03:13,454] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/logi HTTP/1.1" 404 4033
+[2019-03-08 08:03:35,914] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1413
+[2019-03-08 08:03:40,079] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/logi
+[2019-03-08 08:03:40,081] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/logi HTTP/1.1" 404 4027
+[2019-03-08 08:03:58,173] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1413
+[2019-03-08 08:04:03,405] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/logi
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/logi/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:04:03,440] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/logi HTTP/1.1" 500 18637
+[2019-03-08 08:04:20,839] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 08:04:27,006] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:04:27,032] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18671
+[2019-03-08 08:11:51,763] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 08:11:53,507] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login/logins HTTP/1.1" 200 498
+[2019-03-08 08:11:58,500] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:11:58,543] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18683
+[2019-03-08 08:12:30,684] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 08:12:30,690] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 08:12:30,690] [basehttp.py:85] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55958)
+
+[2019-03-08 08:12:32,161] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1419
+[2019-03-08 08:12:37,111] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:12:37,138] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18670
+[2019-03-08 08:13:31,299] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1420
+[2019-03-08 08:13:38,145] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 08:13:38,150] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 08:14:32,831] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1420
+[2019-03-08 08:14:38,115] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 08:14:38,119] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 08:15:32,367] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1416
+[2019-03-08 08:15:37,058] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 08:15:37,063] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 08:15:45,646] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1415
+[2019-03-08 08:15:50,552] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:15:50,579] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18666
+[2019-03-08 08:15:59,617] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1416
+[2019-03-08 08:16:04,347] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 08:16:04,353] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 08:16:20,915] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1416
+[2019-03-08 08:16:23,460] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login/logins HTTP/1.1" 200 498
+[2019-03-08 08:16:28,427] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 08:16:28,436] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 08:16:36,661] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1355
+[2019-03-08 08:16:37,288] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login/logins HTTP/1.1" 200 498
+[2019-03-08 08:16:42,807] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:16:42,836] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18606
+[2019-03-08 08:25:17,452] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1410
+[2019-03-08 08:25:24,213] [base.py:152] [base:get_response] [WARNING]- Not Found: /login_ajax
+[2019-03-08 08:25:24,216] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /login_ajax HTTP/1.1" 404 2040
+[2019-03-08 08:25:56,407] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1415
+[2019-03-08 08:26:00,559] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax
+[2019-03-08 08:26:00,563] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax HTTP/1.1" 403 2494
+[2019-03-08 08:26:59,827] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax HTTP/1.1" 301 0
+[2019-03-08 08:26:59,841] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-08 08:27:15,500] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1415
+[2019-03-08 08:27:19,407] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:27:19,438] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18671
+[2019-03-08 08:30:18,758] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-08 08:30:55,785] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1415
+[2019-03-08 08:31:00,894] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/login_ajax
+[2019-03-08 08:31:00,896] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax HTTP/1.1" 404 4056
+[2019-03-08 08:31:29,800] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-08 08:31:32,905] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1415
+[2019-03-08 08:31:37,722] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:31:37,785] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18676
+[2019-03-08 08:32:32,660] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1355
+[2019-03-08 08:32:33,980] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1355
+[2019-03-08 08:32:37,181] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:32:37,233] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18606
+[2019-03-08 08:34:18,571] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1355
+[2019-03-08 08:34:29,874] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:34:29,904] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18606
+[2019-03-08 08:34:33,484] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 1
+[2019-03-08 08:34:41,618] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 8
+[2019-03-08 08:36:22,245] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1355
+[2019-03-08 08:36:25,767] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:36:25,791] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18629
+[2019-03-08 08:42:28,450] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1408
+[2019-03-08 08:42:34,344] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:42:34,380] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18692
+[2019-03-08 08:43:12,678] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:43:40,978] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:46:51,813] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 08:46:56,784] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:46:56,837] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 08:47:53,881] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:47:53,931] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 08:51:46,814] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:51:50,954] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:54:43,140] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:55:00,583] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:55:00,611] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 08:55:56,735] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 08:56:01,953] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:56:02,007] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 08:56:47,540] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 08:57:34,302] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:57:34,361] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 08:57:40,929] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 08:57:44,747] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login/logins HTTP/1.1" 200 498
+[2019-03-08 08:57:49,710] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 08:57:49,733] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 09:10:27,553] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:10:33,742] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/login_ajax/
+[2019-03-08 09:10:33,743] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 404 4053
+[2019-03-08 09:11:25,852] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:11:30,665] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:11:30,682] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:11:36,804] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:11:38,379] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:11:52,320] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:11:56,334] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/login_ajax/
+[2019-03-08 09:11:56,336] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 404 4053
+[2019-03-08 09:12:11,903] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:12:16,270] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:12:16,284] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:12:33,738] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 09:12:35,345] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 09:12:39,615] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:12:39,666] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 09:13:09,187] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:13:16,374] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:13:16,383] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:13:49,563] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1374
+[2019-03-08 09:13:54,144] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:13:54,214] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 09:16:49,299] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1368
+[2019-03-08 09:16:49,381] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 257551
+[2019-03-08 09:16:54,132] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:16:54,156] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 09:20:07,136] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1315
+[2019-03-08 09:20:10,844] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:20:10,869] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18586
+[2019-03-08 09:20:36,530] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1286
+[2019-03-08 09:20:40,550] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:20:46,431] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:22:09,855] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1375
+[2019-03-08 09:22:18,675] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:22:18,734] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18650
+[2019-03-08 09:24:37,397] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1427
+[2019-03-08 09:24:42,551] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:24:42,577] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18649
+[2019-03-08 09:26:46,724] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1405
+[2019-03-08 09:26:51,581] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:26:51,615] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18650
+[2019-03-08 09:28:01,119] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1407
+[2019-03-08 09:28:06,107] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:28:06,162] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18647
+[2019-03-08 09:28:29,074] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1315
+[2019-03-08 09:28:33,133] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:29:24,285] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1330
+[2019-03-08 09:29:29,364] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:30:16,060] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1407
+[2019-03-08 09:30:20,947] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:30:21,000] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18651
+[2019-03-08 09:33:22,411] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1407
+[2019-03-08 09:33:22,685] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1407
+[2019-03-08 09:33:26,578] [base.py:152] [base:get_response] [WARNING]- Not Found: /blog/login_ajax
+[2019-03-08 09:33:26,579] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax HTTP/1.1" 404 4051
+[2019-03-08 09:33:51,150] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1407
+[2019-03-08 09:34:32,687] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1408
+[2019-03-08 09:34:37,639] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:34:37,642] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:34:53,539] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/ HTTP/1.1" 200 13
+[2019-03-08 09:39:51,555] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1408
+[2019-03-08 09:39:56,089] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:39:56,102] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:53:03,267] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 09:53:08,137] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/?username=%E5%9C%B0%E5%8F%91&password=df HTTP/1.1" 200 13
+[2019-03-08 09:53:26,798] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1441
+[2019-03-08 09:53:31,278] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:53:31,283] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:53:44,099] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 09:53:47,842] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/?username=xzc&password=xczx HTTP/1.1" 200 13
+[2019-03-08 09:57:17,276] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/?username=xzc&password=xczx HTTP/1.1" 200 13
+[2019-03-08 09:57:34,290] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1441
+[2019-03-08 09:57:40,080] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax/
+[2019-03-08 09:57:40,082] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax/ HTTP/1.1" 403 2494
+[2019-03-08 09:58:00,031] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 09:58:05,791] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:58:05,831] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18693
+[2019-03-08 09:58:24,901] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 09:58:26,498] [basehttp.py:131] [basehttp:log_message] [INFO]- "POST /blog/login/logins HTTP/1.1" 200 498
+[2019-03-08 09:58:31,080] [csrf.py:158] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /blog/login_ajax
+[2019-03-08 09:58:31,088] [basehttp.py:131] [basehttp:log_message] [WARNING]- "POST /blog/login_ajax HTTP/1.1" 403 2494
+[2019-03-08 09:58:42,586] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 09:58:46,280] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 09:58:46,309] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18692
+[2019-03-08 10:00:21,075] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1439
+[2019-03-08 10:00:30,288] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax?username=xcxxzv&password=vbvc HTTP/1.1" 301 0
+[2019-03-08 10:00:30,309] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login_ajax/?username=xcxxzv&password=vbvc HTTP/1.1" 200 13
+[2019-03-08 10:03:10,160] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 10:03:16,988] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 10:03:17,016] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18693
+[2019-03-08 10:03:54,788] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 10:03:58,261] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 10:03:58,290] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18693
+[2019-03-08 10:08:38,527] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1440
+[2019-03-08 10:08:44,451] [exception.py:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /blog/login_ajax
+Traceback (most recent call last):
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yf/anaconda2/lib/python2.7/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/blog/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2019-03-08 10:08:44,513] [basehttp.py:131] [basehttp:log_message] [ERROR]- "POST /blog/login_ajax HTTP/1.1" 500 18605
+[2019-03-08 10:11:37,244] [basehttp.py:131] [basehttp:log_message] [INFO]- "GET /blog/login/ HTTP/1.1" 200 1477
