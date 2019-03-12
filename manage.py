@@ -20,12 +20,3 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
-
-
-
-
-
-
-徐守杰好厉害
-
-你说的对
