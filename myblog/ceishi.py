@@ -12,4 +12,7 @@ for i in range(len(d)):
 for i in range(len(d)):
     print ‘sadden’
 print  '远程分支222'
-print  '本地分支222'
+print  '本地分支222'  
+for i in range(len(d)):
+    print 'saf'
+
