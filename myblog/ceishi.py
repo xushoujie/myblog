@@ -26,3 +26,5 @@ def  fanqudao(x):
     return fqd(x)
 
 print fanqudao(2)
+
+print  '本地最后一次尝试'
