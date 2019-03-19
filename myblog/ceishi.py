@@ -5,3 +5,7 @@ d = {
 }
 for i in range(len(d)):
     print d.keys()[i],":", d.values()[i]
+for i in range(len(d)):
+    print d.keys()[i],":", d.values()[i]
+for i in range(len(d)):
+    print d.keys()[i],":", d.values()[i]
